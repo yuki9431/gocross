@@ -1,4 +1,7 @@
-# openVSCode
+# gocross
+
+## Description
+Easily cross-compile for Go
 
 ## Install
 ```bash:#
