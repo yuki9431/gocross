@@ -28,6 +28,10 @@ if [ "${1}" = "raspbian" ]; then
 
 elif [ "${1}" = "centos" ]; then
   GOOS=linux GOARCH=386 go build
+
+elif [ "${1}" = "debian" ]; then
+  GOOS=linux GOARCH=386 go build
+
 else
   echo "Invalid argument"
   exit 1 
